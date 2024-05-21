@@ -5,10 +5,25 @@
 \paperw11900\paperh16840\margl1440\margr1440\vieww17780\viewh8400\viewkind0
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 
-\f0\fs32 \cf0 git init \'97> Crea una repository locale (vuota).
+\f0\fs32 \cf0 \
+#FASE INIZIALE\
+\
+git config \'97global user.name \'93tuo nome utente\'94 \'97> Per settare il nome dell\'92utente git.\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 git config \'97global user.email \'93tua email\'94 \'97> Per settare email dell\'92utente git.\
+git config \'97global \'97list \'97>Stampa una lista di variabili \
+\
+#CHECK REPOSITORY STATUS
 \fs36 \
 
-\fs32 git status \'97> Istruzione che permette di verificare lo stato della repository locale.
+\fs32 git status  \'97> Istruzione che permette di verificare lo stato della repository locale.
 \fs36 \
 
-\fs32 git add \'93nome del file\'94\'97> Traccia il file }
+\fs32 \
+#GESTIONE REPOSITORY LOCALE\
+git add \'93nome del file\'94 \'97> Traccia il file in questione.\
+git add . \'97> Traccia tutti i file.\
+git commit -m \'97> Per salvare tutti i file nella repository locale.\
+\
+#INIT REPOSITORY LOCALE\
+git init  \'97> Crea una repository locale (vuota).}
